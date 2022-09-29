@@ -5,3 +5,17 @@ html {
 *,  *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+nav ul {
+    font-size: 22px;
+    text-align: center;
+    font-style: normal;
+}
+
+nav {
+  float: center;
+  padding: 20px;
+}
