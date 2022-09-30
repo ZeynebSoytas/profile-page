@@ -35,10 +35,30 @@ a {
   text-decoration: none;
 }
 
-footer {
+main section img {
+  float: right;
+  margin-right: 100px;
+}
+
+h1 {
+  margin-left: 100px;
 
 }
 
-h2 {
-
+main h2 {
+  margin-left: 100px;
 }
+
+main p {
+  margin-left: 100px;
+  margin-right: 600px;
+}
+
+.grid-container {
+  margin-top: 400px;
+  margin-left: 300px;
+  display: grid;
+
+  /*grid-template-columns: 25% 1fr;*/
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-columns: repeat(3, 1fr);
