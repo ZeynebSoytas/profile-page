@@ -54,7 +54,7 @@ main p {
   margin-right: 600px;
 }
 
-.grid-container {
+.image_line {
   margin-top: 400px;
   margin-left: 300px;
   display: grid;
@@ -62,3 +62,5 @@ main p {
   /*grid-template-columns: 25% 1fr;*/
    grid-template-columns: 1fr 1fr 1fr;
    grid-template-columns: repeat(3, 1fr);
+   width: 30%;
+ }
