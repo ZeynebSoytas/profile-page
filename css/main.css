@@ -58,13 +58,22 @@ main p {
   margin-top: 400px;
   margin-left: 300px;
   display: grid;
-
-  grid-template-columns: 25% 1fr;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: repeat(3, 1fr);
  }
+
 
 .image_cell {
   height: 50px;
   width: 50px;
 }
+#footer{
+  bottom : 30px;
+  height : 40px;
+  left: 200px;
+   margin-top : 40px;
+   text-align: center;
+   vertical-align: middle;
+   position: absolute;
+   width:100%;
+   }
