@@ -62,5 +62,9 @@ main p {
   /*grid-template-columns: 25% 1fr;*/
    grid-template-columns: 1fr 1fr 1fr;
    grid-template-columns: repeat(3, 1fr);
-   width: 30%;
  }
+
+.image_cell {
+  height: 50px;
+  width: 50px;
+}
