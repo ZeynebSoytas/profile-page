@@ -59,7 +59,7 @@ main p {
   margin-left: 300px;
   display: grid;
 
-  /*grid-template-columns: 25% 1fr;*/
+  grid-template-columns: 25% 1fr;
    grid-template-columns: 1fr 1fr 1fr;
    grid-template-columns: repeat(3, 1fr);
  }
